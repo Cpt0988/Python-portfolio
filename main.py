@@ -14,3 +14,8 @@ with col2:
     cool stuff along the way.
     """
     st.info(content)
+
+statement="""
+Below you can find some the apps I have built in Python. Feel free to contact me!
+"""
+st.info(statement)
