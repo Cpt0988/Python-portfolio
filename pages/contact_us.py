@@ -4,10 +4,11 @@ from send_email import send_email
 st.header("Contact me")
 
 with st.form(key = "email form"):
+    topic = st.selectbox("Topic Selection", ("Job opportunities", " Project Questions", "Other"))
     user_email = st.text_input("Your Email Address")
     raw_message = st.text_area("Your message")
     message = f"""\
-Subject: New email from {user_email}
+Subject: New email about: {topic}
 
 From:{user_email}
 {raw_message}

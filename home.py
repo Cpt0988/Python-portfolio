@@ -12,8 +12,9 @@ with col1:
 with col2:
     st.title("Charles Taylor")
     content = """
-    Hi, my name is Charles Taylor and a spiring programmer and data analyst—currently sharpening my skills and building 
-    cool stuff along the way.
+    Hi. My name is Charles Taylor, I'm a spiring developer and data analyst—currently sharpening my skills and building 
+    cool stuff along the way. All projects include this website was made using python and I will branch out into other languages 
+    to showcase my continuous development as a developer and analyst.
     """
     st.info(content)
 
